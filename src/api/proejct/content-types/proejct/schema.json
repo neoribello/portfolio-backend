@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "proejcts",
+  "info": {
+    "singularName": "proejct",
+    "pluralName": "proejcts",
+    "displayName": "project",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projectImg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "projectTitle": {
+      "type": "string"
+    },
+    "projectDescription": {
+      "type": "richtext"
+    },
+    "projectGithub": {
+      "type": "string"
+    },
+    "projectTags": {
+      "type": "json"
+    }
+  }
+}

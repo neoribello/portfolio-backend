@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skillsets",
+  "info": {
+    "singularName": "skillset",
+    "pluralName": "skillsets",
+    "displayName": "Skillset",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "skillsetLogos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "skillsetTitle": {
+      "type": "string"
+    }
+  }
+}
